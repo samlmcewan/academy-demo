@@ -11,7 +11,8 @@
       }
 
       .mob-logo {
-        width: 66%;
+        width: 100%;
+        align-items: center;
     }
     .partner-svg {
       padding: 0;
@@ -26,4 +27,7 @@
       margin-top: 3rem;
     }
     
+}
+.mob-top-logo {
+  width: 600px;
 }
