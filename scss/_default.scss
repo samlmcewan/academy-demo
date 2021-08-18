@@ -266,6 +266,10 @@
   .search-bar {
     border-radius: 5px;
   }
+
+  i.fa.fa-search {
+    color: $accentColor;
+  }
   
   /* NES logo */
   
@@ -1250,6 +1254,21 @@ left: 8px;
   /*--------------------------------------------------------------
   # News
   --------------------------------------------------------------*/
+
+
+#news {
+  .landing-card {
+    .news-img {
+      overflow: hidden;
+      margin: -30px -30px 15px -30px;
+      position: relative;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+     
+    }
+  }
+}
+
   #news-title {
     padding-bottom: 0;
   }
@@ -1278,8 +1297,8 @@ color: $primaryColor;
     }
     
      .news .icon-box h4 {
-    margin-left: 70px;
-    font-weight: 600;
+    // margin-left: 70px;
+    font-weight: 500;
     margin-bottom: 15px;
   
     /* font-size: 18px; */
@@ -1299,7 +1318,7 @@ color: $primaryColor;
     }
   
      .news .icon-box p {
-    margin-left: 70px;
+    // margin-left: 70px;
     line-height: 24px;
     font-size: 18px;
     color: #707070;
@@ -1587,8 +1606,7 @@ color: $primaryColor;
   footer {
     font-size: 1.13rem;
     line-height: 2.26rem;
-    background-color: $blackColor;
-    color: #ffffff;
+   
   }
   
   footer ul {
@@ -1637,13 +1655,7 @@ color: $primaryColor;
     }
   }
   
-  
-  .sub-footer {
-      /* background-color: #1d303f; */
-      background-color: $lightColor;
-      /* color: #ffffff; */
-      color: $blackColor;
-  }
+ 
   
   /* footer pdf  */
   footer .container-fluid {
@@ -1651,8 +1663,8 @@ color: $primaryColor;
     padding-right: 0; }
   
   .footer {
-    background-color: #fff;
-    color: $blackColor;
+    background-color: $footerColor;
+    color: #fff ;
     /* margin-top: 3rem; */
     padding-bottom: 3rem; }
   
@@ -1669,9 +1681,7 @@ color: $primaryColor;
   .copysymbol {
     font-size: 20px; }
   
-  .footer a {
-    
-    color: $blackColor; }
+ 
   
   .footer ul {
     padding: 0;
@@ -1681,7 +1691,7 @@ color: $primaryColor;
     font-size: 1.25rem; }
   
   .mob-footer-accordian a {
-    color: var(--blackColor);
+    color: #ffffff;
      }
   
      .mob-footer-accordian a i{
@@ -1703,7 +1713,7 @@ color: $primaryColor;
     padding: 1rem;
     font-size: 1.5rem;
     width: 100%;
-    border-bottom: 3px solid var(--black);
+    border-bottom: 3px solid #ffffff;
     text-align: left;
     font-size: 17px;
     letter-spacing: 1px; }
@@ -1734,7 +1744,7 @@ color: $primaryColor;
     
 
   .border-top-footer {
-    border-top: 2px solid white; }
+    border-top: 2px solid $footerColor }
   
   @media only screen and (max-width: 535px) {
     .logo-container-footer {
@@ -1762,8 +1772,7 @@ color: $primaryColor;
     
     min-height: 100%; }
   
-  .border-right-footer {
-    border-right: 2px solid #ffffff; }
+
   
   .sub-footer {
      /* background-color: #1d303f; */
@@ -1798,26 +1807,12 @@ color: $primaryColor;
   .social-footer ul li a i {
     font-size: 1rem;
     margin-right: 1.5rem;
-    color: $primaryColor;
+    color: #ffffff;
   }
   
   
   
   
-  
-  .social-footer ul li a:hover i  {
-    color: $accentColor;
-    animation: icons-rise 0.3s linear forwards;
-  }
-  
-  @keyframes icons-rise {
-    from {
-        transform: translateX(0px);
-    }
-    to {
-        transform: translate(2.5px, -2.5px);
-    }
-  }
   
   
   .social-footer a:hover {
@@ -1827,7 +1822,9 @@ color: $primaryColor;
   .social-footer a:hover span{
     text-decoration: underline;
   }
-  
+  footer a:hover {
+    color: #ffffff;
+  }
   
   /* Move arrows footer links hover  */
   
@@ -1876,7 +1873,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
 
   padding-top: 3rem;
   padding-bottom: 3rem;
-  margin-bottom: 1rem;
+
 
 
   .quick-link {
@@ -1886,49 +1883,53 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     align-items: center;
     flex-direction: column;
     transition: all 0.3s ease-in-out;
-  }
-  .quick-link i {
-    transition: all 0.3s ease-in-out;
-    color: $primaryColor;
-    font-size: 56px;
-    // margin-bottom: 30px;
-  }
-  .quick-link h2 {
-    transition: all 0.3s ease-in-out;
-    color: $primaryColor;
-    font-size: 2rem;
-    text-decoration: none;
-    margin-top: 1rem;
-    margin-bottom: 0;
- 
-  }
-  
-  .icon-container {
-    background-color: #ffffff;
+
+     i {
+      transition: all 0.3s ease-in-out;
+      color: $primaryColor;
+      font-size: 56px;
+    }
+    h2 {
+      transition: all 0.3s ease-in-out;
+      color: $primaryColor;
+      font-size: 2rem;
+      text-decoration: none;
+      margin-top: 1rem;
+      margin-bottom: 0;
+    }
+    .icon-container {
+      transition: all 0.3s ease-in-out;
+      background-color: $lightColor;
     // padding: 2rem;
-    border-radius: 100px;
-    width: 128px;
-    height: 128px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+      border-radius: 100px;
+      width: 128px;
+      height: 128px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &:hover {
+       i {
+        // color: $lightBlue;
+        color: white;
+      }
+      .icon-container {
+       background-color: $primaryColor;
+      }
+    }
 
-  .quick-link:hover i {
-    color: $lightBlue;
   }
-
-  .quick-link:hover {
-    // background-color: #ffffff;
-  }
-
-  .icon-container {
-    transition: all 0.3s ease-in-out;
-  }
-  .quick-link:hover  {
-    // background-color: $lightColor;
   
-  }
+  
+  
+
+
+  
+
+ 
+
+  
+  
   
 }
 
@@ -1955,3 +1956,21 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     margin-bottom: -3rem;
   }
 
+#about-home  {
+  .container-fluid {
+    padding: 100px;
+  }
+ background-color: $primaryColor10;
+
+ 
+ 
+}
+
+
+
+
+
+
+#events {
+  
+}

@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
 
 // fonts
 $font: 'Poppins', sans-serif;
+$logoFont: 'Source Sans Pro', sans-serif;
 
 // Colour
 $primaryColor: #092769;
@@ -16,6 +18,8 @@ $darkColor: #092769;
 
 $blackColor: #384046;
 
+
+
 // $accentColor: #007bff;
 $accentColor: #0391bf;
 $triadsColor: #2B827E;
@@ -24,3 +28,6 @@ $sdcepColor: #3B2E63;
 
 $lightBlue: #0391bf;
 $purple: #692875;
+
+// $footerColor: #182A4F;
+$footerColor: #121F3B;
