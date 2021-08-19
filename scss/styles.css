@@ -2155,9 +2155,9 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     z-index: -1; }
     #banner-photo .banner-photo .overlay-hero {
       background: #092769;
-      background: -moz-linear-gradient(90deg, #092769 20%, #0391bf 70%);
-      background: -webkit-linear-gradient(90deg, #092769 20%, #0391bf 70%);
-      background: linear-gradient(90deg, #092769 20%, #0391bf 70%);
+      background: -moz-linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
+      background: -webkit-linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
+      background: linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1); }
   #banner-photo .highlight-item {
     padding: 200px 0; }
