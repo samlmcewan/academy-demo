@@ -1,8 +1,8 @@
 new Swiper('.highlights-slider', {
     speed: 800,
-    loop: false,
+    loop: true,
     autoplay: {
-      delay: 9000,
+      delay: 8000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',

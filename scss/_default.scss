@@ -1974,3 +1974,24 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
 #events {
   
 }
+
+
+
+
+
+// banner toggle 
+
+.banner-toggle {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: fit-content;
+  position: fixed;
+  top: 10rem;
+  right: 0;
+  z-index: 9999999;
+  background-color: $lightColor;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}

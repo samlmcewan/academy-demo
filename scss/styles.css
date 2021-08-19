@@ -1404,6 +1404,19 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
   #about-home .container-fluid {
     padding: 100px; }
 
+.banner-toggle {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: fit-content;
+  position: fixed;
+  top: 10rem;
+  right: 0;
+  z-index: 9999999;
+  background-color: #F5F5F5;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
 @media (min-width: 768px) {
   .highlight-text p {
     font-size: 18px; }
