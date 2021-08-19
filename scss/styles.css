@@ -1417,6 +1417,12 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px; }
 
+.vis {
+  display: block; }
+
+.hide {
+  display: none; }
+
 @media (min-width: 768px) {
   .highlight-text p {
     font-size: 18px; }
