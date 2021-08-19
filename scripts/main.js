@@ -28,7 +28,11 @@ if (document.querySelector('input[name="banner-select"]')) {
                 banner1.style.display = 'none';
                 banner2.style.display = 'none';
               break;
-            
+              case 'banner-1':
+                banner1.style.display = 'block';
+                banner2.style.display = 'none';
+                banner3.style.display = 'none';
+            break;
             default:
                 banner1.style.display = 'block';
                 banner2.style.display = 'none';
