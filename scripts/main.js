@@ -14,7 +14,7 @@ if (document.querySelector('input[name="banner-select"]')) {
       elem.addEventListener("change", function(event) {
 
         banner2.classList.remove('hide');
-banner3.classList.remove('hide');
+        banner3.classList.remove('hide');
           
           
         var item = event.target.value;
