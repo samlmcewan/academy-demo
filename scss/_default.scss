@@ -16,7 +16,8 @@
     --blackColor: #384046;
 
   
-    --accentColor: #0391bf;
+    // --accentColor: #0391bf;
+    --accentColor: #0096dc;
   
 
     --lightBlue: #0391bf;
@@ -1259,11 +1260,14 @@ left: 8px;
 #news {
   .landing-card {
     .news-img {
-      overflow: hidden;
-      margin: -30px -30px 15px -30px;
-      position: relative;
-      border-top-right-radius: 5px;
       border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      max-height: 221px;
+      margin: -30px -30px 15px -30px;
+      overflow: hidden;
+      position: relative;
+      
+      
      
     }
   }

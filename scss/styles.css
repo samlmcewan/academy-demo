@@ -9,7 +9,7 @@
   --lightColor: #F5F5F5;
   --darkColor: #092769;
   --blackColor: #384046;
-  --accentColor: #0391bf;
+  --accentColor: #0096dc;
   --lightBlue: #0391bf; }
 
 /*--------------------------------------------------------------
@@ -80,7 +80,7 @@ p, ul li, ol li {
 
 a {
   text-decoration: none;
-  color: #0391bf; }
+  color: #0096dc; }
 
 #main a, #main ul li a {
   text-decoration: underline;
@@ -99,14 +99,14 @@ ul li {
   list-style-type: disc; }
 
 ul li::marker {
-  color: #0391bf; }
+  color: #0096dc; }
 
 ul li i {
   /* padding-right: 0.3rem; */
   /* color: $blackColor; */ }
 
 #content ol li::marker {
-  color: #0391bf; }
+  color: #0096dc; }
 
 #content h2 {
   padding-top: 0; }
@@ -200,7 +200,7 @@ ul li i {
   border-radius: 5px; }
 
 i.fa.fa-search {
-  color: #0391bf; }
+  color: #0096dc; }
 
 /* NES logo */
 .nes-logo-top {
@@ -266,8 +266,8 @@ nav {
   /* background-color: #1d303f; */ }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #0391bf;
-  border-color: #0391bf; }
+  color: #0096dc;
+  border-color: #0096dc; }
 
 .navbar .dropdown ul {
   display: block;
@@ -405,13 +405,13 @@ nav {
   transition: .25s ease-in-out; }
 
 .animated-icon1 span {
-  background: #0391bf; }
+  background: #0096dc; }
 
 .animated-icon2 span {
-  background: #0391bf; }
+  background: #0096dc; }
 
 .animated-icon3 span {
-  background: #0391bf; }
+  background: #0096dc; }
 
 .animated-icon1 span:nth-child(1) {
   top: 0px; }
@@ -606,7 +606,7 @@ li.breadcrumb-item.active, span.divider {
   list-style-type: none; }
 
 .side-menu .active {
-  border-left: 3px solid #0391bf; }
+  border-left: 3px solid #0096dc; }
 
 #side-menu li:first-of-type:hover {
   background-color: #ffffff;
@@ -621,13 +621,13 @@ li.breadcrumb-item.active, span.divider {
   cursor: pointer; }
 
 #side-menu ul li:hover a {
-  color: #0391bf; }
+  color: #0096dc; }
 
 #side-menu .active {
   background-color: #F5F5F5; }
 
 #side-menu .active a {
-  color: #0391bf;
+  color: #0096dc;
   margin-left: -3px; }
 
 /* News side menu  */
@@ -729,7 +729,7 @@ li.breadcrumb-item.active, span.divider {
   border: 1px solid white;
   margin: 10px 0;
   /* color: #fff; */
-  color: #0391bf;
+  color: #0096dc;
   /* color: $primaryColor; */
   border-radius: 5px;
   transition: 0.3s;
@@ -880,11 +880,12 @@ li.breadcrumb-item.active, span.divider {
 # News
 --------------------------------------------------------------*/
 #news .landing-card .news-img {
-  overflow: hidden;
-  margin: -30px -30px 15px -30px;
-  position: relative;
+  border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-top-left-radius: 5px; }
+  max-height: 221px;
+  margin: -30px -30px 15px -30px;
+  overflow: hidden;
+  position: relative; }
 
 #news-title {
   padding-bottom: 0; }
@@ -976,7 +977,7 @@ li.breadcrumb-item.active, span.divider {
   border-radius: 5;
   border: none;
   box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
-  color: #0391bf; }
+  color: #0096dc; }
 
 #paging .btn-primary:hover {
   box-shadow: rbga(0, 0, 0, 0.08) 0px 2px 22px;
@@ -1210,7 +1211,7 @@ footer .container-fluid {
   color: #ffffff; }
 
 .mob-footer-accordian a i {
-  color: #0391bf;
+  color: #0096dc;
   font-size: 1rem; }
 
 #footerCollapse_3 li {
@@ -1294,7 +1295,7 @@ footer .container-fluid {
   font-weight: 500; }
 
 footer .fa-chevron-right {
-  color: #0391bf;
+  color: #0096dc;
   padding-right: 0.5rem;
   padding-left: 0.5rem; }
 
@@ -1337,14 +1338,14 @@ button.footer-accordian-header.accordion-toggle.collapsed.collapsible-link::afte
   font-weight: 900;
   font-family: "Font Awesome 5 Pro";
   float: right;
-  color: #0391bf; }
+  color: #0096dc; }
 
 button.footer-accordian-header.accordion-toggle.collapsible-link:after {
   content: '\f078';
   font-weight: 900;
   font-family: "Font Awesome 5 Pro";
   float: right;
-  color: #0391bf; }
+  color: #0096dc; }
 
 .logo-container-footer {
   margin-top: 3rem; }
@@ -1454,8 +1455,8 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
 --------------------------------------------------------------*/
   .top-brand #logo-text {
     align-items: center;
-    border-left: 2px solid #0391bf;
-    border-right: 2px solid #0391bf;
+    border-left: 2px solid #0096dc;
+    border-right: 2px solid #0096dc;
     display: flex;
     flex-direction: column;
     font-family: "Source Sans Pro", sans-serif;
@@ -1464,7 +1465,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     .top-brand #logo-text .logo-title {
       font-weight: 400;
       font-size: 2.25rem;
-      border-bottom: 1px solid #0391bf; }
+      border-bottom: 1px solid #0096dc; }
     .top-brand #logo-text .logo-sub {
       font-weight: 300;
       font-size: 1.125rem;
@@ -1539,7 +1540,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
 
   a {
     text-decoration: none;
-    color: #0391bf; }
+    color: #0096dc; }
 
   #main a, #main ul li a {
     text-decoration: underline;
@@ -1558,7 +1559,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     list-style-type: disc; }
 
   ul li::marker {
-    color: #0391bf; }
+    color: #0096dc; }
 
   ul li i {
     /* padding-right: 0.3rem; */
@@ -1720,8 +1721,8 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     /* background-color: #1d303f; */ }
 
   .navbar a:hover, .navbar .active, .navbar li:hover > a {
-    color: #0391bf;
-    border-color: #0391bf; }
+    color: #0096dc;
+    border-color: #0096dc; }
 
   .navbar .dropdown ul {
     display: block;
@@ -1952,7 +1953,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     list-style-type: none; }
 
   .side-menu .active {
-    border-left: 3px solid #0391bf; }
+    border-left: 3px solid #0096dc; }
 
   #side-menu li:first-of-type:hover {
     background-color: #ffffff;
@@ -1967,13 +1968,13 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     cursor: pointer; }
 
   #side-menu ul li:hover a {
-    color: #0391bf; }
+    color: #0096dc; }
 
   #side-menu .active {
     background-color: #F5F5F5; }
 
   #side-menu .active a {
-    color: #0391bf;
+    color: #0096dc;
     margin-left: -3px; }
 
   /* News side menu  */
@@ -1998,7 +1999,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
   # About
   --------------------------------------------------------------*/
   .about {
-    background: #0391bf;
+    background: #0096dc;
     background-size: cover;
     padding: 60px 0;
     position: relative;
@@ -2300,7 +2301,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     border-radius: 5;
     border: none;
     box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
-    color: #0391bf; }
+    color: #0096dc; }
 
   #paging .btn-primary:hover {
     box-shadow: rbga(0, 0, 0, 0.08) 0px 2px 22px;
@@ -2594,7 +2595,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     font-weight: 500; }
 
   footer .fa-chevron-right {
-    color: #0391bf;
+    color: #0096dc;
     padding-right: 0.5rem;
     padding-left: 0.5rem; }
 
@@ -2608,7 +2609,7 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     .social-footer ul li a i {
       font-size: 1.8rem;
       margin-right: 1.5rem;
-      color: #0391bf; }
+      color: #0096dc; }
     .social-footer ul li a:hover i {
       animation: icons-rise 0.3s linear forwards; }
     .social-footer ul li a:hover span {
