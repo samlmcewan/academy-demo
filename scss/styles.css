@@ -2062,7 +2062,8 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     position: relative;
     display: flex;
     flex-direction: row;
-    border-radius: 5px; }
+    border-radius: 5px;
+    padding: 40px 0; }
 
   .highlight-svg {
     position: absolute;
@@ -2130,6 +2131,40 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     height: 300px;
     position: absolute;
     left: 0; }
+
+  #banner-photo .banner-photo {
+    z-index: -1; }
+    #banner-photo .banner-photo .overlay-hero {
+      background: #092769;
+      background: -moz-linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
+      background: -webkit-linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
+      background: linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1); }
+  #banner-photo .highlight-item {
+    padding: 200px 0; }
+  #banner-photo .highlights .highlight-item .highlight-img {
+    object-fit: cover;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 0; }
+  #banner-photo .highlight-text {
+    z-index: 999999999;
+    padding-right: 40px; }
+    #banner-photo .highlight-text h2 {
+      color: #ffffff; }
+  #banner-photo .overlay-hero {
+    z-index: 2; }
+  #banner-photo .swiper-pagination {
+    margin-bottom: 60px; }
+
+  #banner-photo.about {
+    padding: 0; }
 
   /*--------------------------------------------------------------
   # Features
