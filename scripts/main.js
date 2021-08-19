@@ -24,6 +24,8 @@ if (document.querySelector('input[name="banner-select"]')) {
         switch (item) {
             case 'banner-2':
                 banner2.classList.remove('hide');
+        banner3.classList.remove('hide');
+                banner2.classList.remove('hide');
                 
          
                 banner1.classList.add('hide');
@@ -31,6 +33,8 @@ if (document.querySelector('input[name="banner-select"]')) {
                 banner3.classList.add('hide');
               break;
               case 'banner-3':
+                banner2.classList.remove('hide');
+                banner3.classList.remove('hide');
                 banner3.classList.remove('hide');
   
      
@@ -39,6 +43,8 @@ if (document.querySelector('input[name="banner-select"]')) {
                 banner2.classList.add('hide');
               break;
               case 'banner-1':
+                banner2.classList.remove('hide');
+                banner3.classList.remove('hide');
                 banner1.classList.remove('hide');
          
               
