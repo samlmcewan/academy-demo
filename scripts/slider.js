@@ -1,5 +1,6 @@
 new Swiper('.highlights-slider', {
-    speed: 800,
+    speed: 3000,
+    // longSwipesMs: 10000,
     loop: true,
     autoplay: {
       delay: 8000,
@@ -22,5 +23,13 @@ new Swiper('.highlights-slider', {
         spaceBetween: 20
       }
     },
-    effect: 'fade' 
+    effect: 'fade', 
+    fadeEffect: {
+      crossFade: false
+    }
+    
+    
   });
+
+    
+            
