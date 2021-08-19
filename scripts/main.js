@@ -14,52 +14,79 @@ if (document.querySelector('input[name="banner-select"]')) {
       elem.addEventListener("change", function(event) {
 
         banner2.classList.remove('hide');
+        banner2.classList.add('vis');
+
         banner3.classList.remove('hide');
+        banner3.classList.add('vis');
           
           
         var item = event.target.value;
         console.log(item);
 
-    
-        switch (item) {
-            case 'banner-2':
-                banner2.classList.remove('hide');
-        banner3.classList.remove('hide');
-                banner2.classList.remove('hide');
+        if (item == 'banner-1') {
+            banner1.classList.remove('hide');
+         
+              
+                banner2.classList.add('hide');
+           
+                banner3.classList.add('hide');
+
+        } else if ( item == 'banner-2') {
+            banner2.classList.remove('hide');
+                banner2.classList.add('vis');
                 
          
                 banner1.classList.add('hide');
                
                 banner3.classList.add('hide');
-              break;
-              case 'banner-3':
-                banner2.classList.remove('hide');
-                banner3.classList.remove('hide');
-                banner3.classList.remove('hide');
+
+        } else if (item == 'banner-3'){
+            banner3.classList.remove('hide');
+            banner3.classList.add('vis');
+              
+                banner2.classList.add('hide');
+           
+                banner1.classList.add('hide');
+        }
+
+    
+        // switch (item) {
+        //     case 'banner-2':
+        //         banner2.classList.remove('hide');
+        //         banner2.classList.add('vis');
+                
+         
+        //         banner1.classList.add('hide');
+               
+        //         banner3.classList.add('hide');
+        //       break;
+        //       case 'banner-3':
+        //         banner3.classList.add('vis');
+        //         banner3.classList.remove('hide');
+                
   
      
-                banner1.classList.add('hide');
+        //         banner1.classList.add('hide');
              
-                banner2.classList.add('hide');
-              break;
-              case 'banner-1':
-                banner2.classList.remove('hide');
-                banner3.classList.remove('hide');
-                banner1.classList.remove('hide');
+        //         banner2.classList.add('hide');
+        //       break;
+        //       case 'banner-1':
+        //         banner1.classList.remove('hide');
          
               
-                banner2.classList.add('hide');
+        //         banner2.classList.add('hide');
            
-                banner3.classList.add('hide');
-              break;
-            default:
-                banner1.classList.remove('hide');
+        //         banner3.classList.add('hide');
+        //       break;
+        //     default:
+        //         banner1.classList.remove('hide');
          
               
-                banner2.classList.add('hide');
+        //         banner2.classList.add('hide');
            
-                banner3.classList.add('hide');
-          }
+        //         banner3.classList.add('hide');
+        //         break;
+        //   }
           
 
         // if (item == 'banner-2') {
