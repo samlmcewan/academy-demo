@@ -518,7 +518,11 @@ nav {
 ** Breadcrumbs and inner banner
 --------------------------------------------------------------*/
 .banner {
-  background-color: #092769; }
+  background: #092769;
+  background: -moz-linear-gradient(90deg, #092769 20%, #0391bf 100%);
+  background: -webkit-linear-gradient(90deg, #092769 20%, #0391bf 100%);
+  background: linear-gradient(90deg, #092769 20%, #0391bf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1); }
 
 .inner-banner {
   display: flex;
@@ -886,6 +890,10 @@ li.breadcrumb-item.active, span.divider {
   margin: -30px -30px 15px -30px;
   overflow: hidden;
   position: relative; }
+  #news .landing-card .news-img img {
+    min-height: 221px;
+    width: auto;
+    object-fit: cover; }
 
 #news-title {
   padding-bottom: 0; }
@@ -976,7 +984,6 @@ li.breadcrumb-item.active, span.divider {
   background-color: #ffffff;
   border-radius: 5;
   border: none;
-  box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
   color: #0096dc; }
 
 #paging .btn-primary:hover {
@@ -2288,7 +2295,6 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     background-color: #ffffff;
     border-radius: 5;
     border: none;
-    box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
     color: #0096dc; }
 
   #paging .btn-primary:hover {
@@ -2635,9 +2641,9 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
 
 .overlay-hero {
   background: #092769;
-  background: -moz-linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 60%);
-  background: -webkit-linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 60%);
-  background: linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 60%);
+  background: -moz-linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 65%);
+  background: -webkit-linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 65%);
+  background: linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 65%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1);
   position: absolute;
   left: 0;
