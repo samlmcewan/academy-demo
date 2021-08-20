@@ -668,10 +668,11 @@ left: 8px;
   
   .banner {
     // background-color: $primaryColor;
+    
     background: rgb(9,39,105);
-    background: -moz-linear-gradient(90deg, rgba(9,39,105,1) 20%, rgba(3,145,191,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(9,39,105,1) 20%, rgba(3,145,191,1) 100%);
-    background: linear-gradient(90deg, rgba(9,39,105,1) 20%, rgba(3,145,191,1) 100%);
+    background: -moz-linear-gradient(90deg, rgba(9,39,105,1) 0%, rgba(0,150,220,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(9,39,105,1) 0%, rgba(0,150,220,1) 100%);
+    background: linear-gradient(90deg, rgba(9,39,105,1) 0%, rgba(0,150,220,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1);
   
   }

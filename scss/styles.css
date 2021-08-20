@@ -519,9 +519,9 @@ nav {
 --------------------------------------------------------------*/
 .banner {
   background: #092769;
-  background: -moz-linear-gradient(90deg, #092769 20%, #0391bf 100%);
-  background: -webkit-linear-gradient(90deg, #092769 20%, #0391bf 100%);
-  background: linear-gradient(90deg, #092769 20%, #0391bf 100%);
+  background: -moz-linear-gradient(90deg, #092769 0%, #0096dc 100%);
+  background: -webkit-linear-gradient(90deg, #092769 0%, #0096dc 100%);
+  background: linear-gradient(90deg, #092769 0%, #0096dc 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1); }
 
 .inner-banner {
@@ -2151,9 +2151,9 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
     z-index: -1; }
     #banner-photo .banner-photo .overlay-hero {
       background: #092769;
-      background: -moz-linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
-      background: -webkit-linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
-      background: linear-gradient(90deg, #092769 20%, rgba(3, 145, 191, 0) 70%);
+      background: -moz-linear-gradient(90deg, #092769 20%, rgba(0, 150, 220, 0) 70%);
+      background: -webkit-linear-gradient(90deg, #092769 20%, rgba(0, 150, 220, 0) 70%);
+      background: linear-gradient(90deg, #092769 20%, rgba(0, 150, 220, 0) 70%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1); }
   #banner-photo .highlight-item {
     padding: 200px 0; }
@@ -2641,9 +2641,9 @@ button.footer-accordian-header.accordion-toggle.collapsible-link:after {
 
 .overlay-hero {
   background: #092769;
-  background: -moz-linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 65%);
-  background: -webkit-linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 65%);
-  background: linear-gradient(90deg, #092769 0%, rgba(3, 145, 191, 0) 65%);
+  background: -moz-linear-gradient(90deg, #092769 0%, rgba(0, 150, 220, 0) 65%);
+  background: -webkit-linear-gradient(90deg, #092769 0%, rgba(0, 150, 220, 0) 65%);
+  background: linear-gradient(90deg, #092769 0%, rgba(0, 150, 220, 0) 65%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#092769",endColorstr="#0391bf",GradientType=1);
   position: absolute;
   left: 0;
