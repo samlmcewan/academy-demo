@@ -1328,7 +1328,7 @@
     }
 
     &:hover {
-      cursor: pointer;
+      
       .nes-logo-top path:nth-child(21), .nes-logo-top path:nth-child(22), .nes-footer path:nth-child(21), .nes-footer path:nth-child(22) {
         opacity: 100%;
        }
@@ -1339,6 +1339,11 @@
 
   }
   
+  .gj-footer:hover path:not(:nth-child(4)):not(:nth-child(5)) {
+    opacity: 60%;
+  }
+
+    
 
   /*--------------------------------------------------------------
   ** Footer

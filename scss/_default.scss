@@ -1587,23 +1587,6 @@ color: $primaryColor;
 }
   
   /*--------------------------------------------------------------
-  ** Partner programmes
-  --------------------------------------------------------------*/
-  @media only screen and (max-width: 1199px) {
-    .partner-svg {
-      padding: 1rem;
-    }
-    .partner-svg svg:first-of-type {
-      width: 100%;
-    }
-    
-    .partner-svg svg:last-of-type {
-      width: 85%;
-    }
-    
-  }
-
-  /*--------------------------------------------------------------
   ** Footer
   --------------------------------------------------------------*/
   
@@ -1782,7 +1765,10 @@ color: $primaryColor;
      /* background-color: #1d303f; */
      background-color: $lightColor;
      /* color: #ffffff; */
-     color: $blackColor;}
+     color: $blackColor;
+    
+    }
+     
   
   .footer-last a {
     color: #212121; }
